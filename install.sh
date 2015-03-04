@@ -14,7 +14,7 @@ sudo cp -R $dirname "$lib/"
 
 # remove existing bin if it exists
 if [ -e "$bin/dotfiles" ]; then
-  rm "$bin/dotfiles"
+  sudo rm "$bin/dotfiles"
 fi
 
 # symlink dotfiles
