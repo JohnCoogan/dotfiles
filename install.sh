@@ -18,7 +18,7 @@ if [ -e "$bin/dotfiles" ]; then
 fi
 
 # symlink dotfiles
-ln -s "$lib/dotfiles/dotfiles.sh" "$bin/dotfiles"
+sudo ln -s "$lib/dotfiles/dotfiles.sh" "$bin/dotfiles"
 
 # Ubuntu-only: Change from dash to bash
 if [ "$BASH_VERSION" = '' ]; then
