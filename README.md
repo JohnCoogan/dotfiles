@@ -30,3 +30,15 @@ Dotfiles is the first thing I download and run to get my computer set up.
 - sets OSX defaults
 - installs applications via `homebrew-cask` (one-password, sublime-text, virtualbox, nv-alt, iterm2, etc.)
 - sets up the ~/.bash_profile 
+
+### TODO
+
+- Add support for Moom install
+- Zsh instalation
+- Heroku toolbelt install
+- RescueTime
+- Django properly setup
+- Docker / VirtualBox / Etc.
+- Excel Installation
+- iPython / Anaconda installation
+ 

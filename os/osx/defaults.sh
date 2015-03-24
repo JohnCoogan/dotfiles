@@ -370,9 +370,6 @@ sudo pmset -a standbydelay 86400;ok
  
 running "Show the battery percent"
 defaults write com.apple.menuextra.battery ShowPercent -string "YES";ok
- 
-running "Disable annoying backswipe in Chrome"
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false;ok
 
 ###############################################################################
 # Transmission.app                                                            #
